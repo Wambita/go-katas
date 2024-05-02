@@ -6,21 +6,22 @@ This kata project a function named `Order` which takes a string and reorders eac
 
 ## Algorithm
       
-   #### Order Function:
-        **Input/Output:** Accepts a sentence string, returns the reordered sentence based on embedded numbers.
+#### Order Function:
 
-        **Splitting:**  Uses strings.Split to break the sentence into words.
-        
-        **Mapping Numbers to Words:**  Uses a loop to examine each word, and a nested loop to examine each character. If a character is a digit (excluding '0'), it maps the word to its numeric position using a map where the key is the extracted number.
+-  **Input/Output** Accepts a sentence string, returns the reordered sentence based on embedded numbers.
 
-        **Compiling Results:** Allocates a slice to store words in their correct order. It then fills this slice using the map, ensuring words are placed according to their numerical position as indicated by their embedded number.
+-  **Splitting:**  Uses strings.Split to break the sentence into words.
 
-        **Constructing the Ordered Sentence: **  Merge the ordered words back into a single string.
+-  **Mapping Numbers to Words:**  Uses a loop to examine each word, and a nested loop to examine each    character. If a character is a digit (excluding '0'), it maps the word to its numeric position using a map where the key is the extracted number.
+
+ -  **Compiling Results:** Allocates a slice to store words in their correct order. It then fills this slice using the map, ensuring words are placed according to their numerical position as indicated by their embedded number.
+
+ -  **Constructing the Ordered Sentence: **  Merge the ordered words back into a single string.
 
    #### Main Function:
-       - The program defines a sentence string that includes words embedded with numbers.
-       - It calls the Order function which is designed to parse these numbers and reorder the words accordingly.
-        The result is printed using println.
+ - The program defines a sentence string that includes words embedded with numbers.
+ - It calls the Order function which is designed to parse these numbers and reorder the words accordingly.
+ - The result is printed using println.
 
 
 ## Functionality
