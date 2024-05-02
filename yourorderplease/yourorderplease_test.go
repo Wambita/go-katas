@@ -15,7 +15,7 @@ func TestOrder(t *testing.T) {
 	for _, test := range tests{
 		output := Order(test.input)
 		if output != test.expected {
-			t.Errorf("hexToDec(%s) expected %s, got %s", test.input, test.expected, output)
+			t.Errorf("Order(%s) expected %s, got %s", test.input, test.expected, output)
 		}
 	}
 }
