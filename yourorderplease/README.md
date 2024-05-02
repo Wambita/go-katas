@@ -4,6 +4,25 @@
 
 This kata project a function named `Order` which takes a string and reorders each word in it based on a number embedded in the word itself. It also includes a test file that has a struct that ensures the output matches the expected output. The project demonstrates the use of string manipulation, sorting algorithms, and Go testing practices.
 
+## Algorithm
+      
+   #### Order Function:
+        **Input/Output:** Accepts a sentence string, returns the reordered sentence based on embedded numbers.
+
+        **Splitting:**  Uses strings.Split to break the sentence into words.
+        
+        **Mapping Numbers to Words:**  Uses a loop to examine each word, and a nested loop to examine each character. If a character is a digit (excluding '0'), it maps the word to its numeric position using a map where the key is the extracted number.
+
+        **Compiling Results:** Allocates a slice to store words in their correct order. It then fills this slice using the map, ensuring words are placed according to their numerical position as indicated by their embedded number.
+
+        **Constructing the Ordered Sentence: **  Merge the ordered words back into a single string.
+
+   #### Main Function:
+       - The program defines a sentence string that includes words embedded with numbers.
+       - It calls the Order function which is designed to parse these numbers and reorder the words accordingly.
+        The result is printed using println.
+
+
 ## Functionality
 
 The `Order` function processes input strings where each word contains a single digit. This digit indicates the word's position in the output string. For example:
