@@ -60,7 +60,7 @@ This command runs the tests defined in the test file, providing verbose output.
 Run the program with the main entry file, and the Order function will be executed with a predefined string:
 
 ```bash
-go run main.go
+go run yourorderplease.go
 ```
 
 ### Example Sentences for Testing
