@@ -16,7 +16,7 @@ This kata project a function named `Order` which takes a string and reorders eac
 
  -  **Compiling Results:** Allocates a slice to store words in their correct order. It then fills this slice using the map, ensuring words are placed according to their numerical position as indicated by their embedded number.
 
- -  **Constructing the Ordered Sentence: **  Merge the ordered words back into a single string.
+ -  **Constructing the Ordered Sentence:**  Merge the ordered words back into a single string.
 
    #### Main Function:
  - The program defines a sentence string that includes words embedded with numbers.
