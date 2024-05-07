@@ -16,6 +16,6 @@ func FindShort(s string) int {
 				slicestr[i], slicestr[j] = slicestr[j], slicestr[i]
 			}
 		}
-	}c
+	}
 	return len(slicestr[0])
 }
