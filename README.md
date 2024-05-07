@@ -64,6 +64,6 @@ Please ensure your code adheres to clean code principles and is well-commented.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Authors
+### Author
 
-    Wambita - Initial work - @Wambita
+##### [Wambita](https://github.com/Wambita)
