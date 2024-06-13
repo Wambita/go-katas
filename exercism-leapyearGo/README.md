@@ -70,16 +70,14 @@ $ go run . 1900
 1900  is **not** a leap year as it is not divisible by both 100 and 400
 
 
-
-
-### Contributing
+## Contributing
 
 We welcome contributions to this project. Please fork the repository and submit a pull request with your improvements.
 
-### License
+## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-### Authors
+## Authors
 This Project was created by [Wambita](https://github.com/Wambita/)
 
